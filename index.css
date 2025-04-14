@@ -1,0 +1,58 @@
+body {
+  background: linear-gradient(
+    45deg,
+    rgba(34, 181, 254, 1),
+    rgba(240, 153, 188, 1)
+  );
+}
+main {
+  text-align: center;
+}
+main h1 {
+  margin-top: 5rem;
+}
+.container {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game {
+  height: 335px;
+  width: 335px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  margin: 0px 10px 10px 0px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px black;
+  font-size: 70px;
+  text-shadow: 2px 2px 2px black;
+}
+.reset {
+  height: 30px;
+  width: 100px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.msg_container {
+  text-align: center;
+}
+.count_container {
+  text-align: center;
+  margin-bottom: 200px;
+}
+.count_container p {
+  font-weight: bolder;
+  font-size: 30px;
+}
+@media (min-width: 300px) and (max-width: 374px) {
+  .box {
+    height: 90px;
+    width: 90px;
+  }
+}
